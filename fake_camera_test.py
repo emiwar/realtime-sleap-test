@@ -6,7 +6,7 @@ import controller
 import camera
 
 
-input_video = "/home/emil/Development/example-dannce-videos/coltrane/2021_07_28_1/videos/Camera1/0.mp4"
+input_video = "./sample_input_video.mp4"
 n_cameras = 3
 
 cameras = [camera.FakeCamera(input_video) for i in range(n_cameras)]

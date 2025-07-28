@@ -1,0 +1,6 @@
+ipython
+tqdm
+torch
+opencv-python
+PyNvVideoCodec
+tensorflow[and-cuda]<=2.15
