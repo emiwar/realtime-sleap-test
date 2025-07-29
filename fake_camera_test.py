@@ -18,9 +18,9 @@ con = controller.Controller(cameras)
 
 start_time = time.perf_counter()
 for i in tqdm.trange(1000):
-    con.move_frames_to_gpu()
-    con.track_frames()
-    con.encode_frames()
+    con.step()
+    #con.move_frames_to_gpu()
+    #con.track_frames()
+    #con.encode_frames()
 run_time = time.perf_counter() - start_time
 print(run_time)
-
